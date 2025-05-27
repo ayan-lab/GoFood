@@ -13,7 +13,7 @@ function Home() {
 
   const loadData = async () => {
     try {
-      let response = await fetch("http://localhost:8000/api/foodData", {
+      let response = await fetch("https://gofood-backend-6pdo.onrender.com/api/foodData", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
