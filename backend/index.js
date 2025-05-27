@@ -10,7 +10,7 @@ const port = process.env.PORT;
 
 app.use(cors(
   {
-    origin: "http://localhost:3000",
+    origin: "https://gofood-frontend-1rvf.onrender.com",
     credentials: true, 
   }
 ));
