@@ -11,6 +11,7 @@ const port = process.env.PORT;
 app.use(cors(
   {
     origin: "https://gofood-frontend-1rvf.onrender.com",
+    method: ["PUT","POST","UPDATE","DELETE","GET"],
     credentials: true, 
   }
 ));
